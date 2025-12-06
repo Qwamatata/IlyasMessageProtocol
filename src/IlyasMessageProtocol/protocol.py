@@ -36,7 +36,7 @@ def receive(socket_: socket.socket) -> list[str | int] | list[str] | list[str | 
     size = int(header_elements[0])
     type_ = header_elements[1]
     filename = header_elements[2]
-    while filename[0] == '0':
+    while len(filename) != 0 and filename[0] == '0':
         filename = filename[1:]
 
     data = _get_data(socket_, size)
