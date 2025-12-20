@@ -1,6 +1,6 @@
 [project]
 name = "IlyasMessageProtocol"
-version = "0.1.0"
+version = "0.1.1"
 description = "Моя библиотека imp_utils"
 readme = "README.md"
 authors = [{ name = "Qwamatata", email = "malyutin.2011@list.ru" }]
